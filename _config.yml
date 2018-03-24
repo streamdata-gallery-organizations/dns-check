@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: dns-check.api.streamdata.gallery
+title: Streamdata Gallery DNS Check
+url: dns-check.streamdata.gallery
 tag: DNS Check
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: dns-check
 github_branch: master
 collections:
