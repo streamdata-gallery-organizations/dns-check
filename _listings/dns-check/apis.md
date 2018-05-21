@@ -1,41 +1,41 @@
 ---
 name: DNS Check
+x-slug: dns-check
 description: DNS Check enables you to easily monitor, share and troubleshoot DNS records.
 image: https://cdn.dnscheck.co/images/dns-check-icon.png
 x-kinRank: "8"
 x-alexaRank: ""
-tags:
-- Stack Network
-- spf record check
-- mx record check
-- Monitoring
-- dns monitor
-- DNS General
-- dns check
-- DNS
-created: "2018-03-25"
-modified: "2018-03-25"
-url: https://raw.githubusercontent.com/streamdata-gallery-organizations/dns-check/master/_listings/dns-check/apis.yaml
+tags: DNS Check
+created: "2018-05-21"
+modified: "2018-05-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-organizations/dns-check/master/_listings/dns-check/apis.md
 specificationVersion: "0.14"
 apis:
-- name: DNS Record Group Monitoring API
-  description: DNS Check enables you to easily monitor, share and troubleshoot DNS
-    records
+- name: DNS Record Group Monitoring API Check Group
+  x-api-slug: dns-record-group-monitoring-api
+  description: The DNS Check API is used to request data for either a specific record
+    group, or all DNS record groups owned by your account.
   image: https://cdn.dnscheck.co/images/dns-check-icon.png
-  humanURL: ""
-  baseURL: https://www.dnscheck.co//api/v1
-  tags:
-  - Stack Network
-  - spf record check
-  - mx record check
-  - Monitoring
-  - dns monitor
-  - DNS General
-  - dns check
-  - DNS
+  humanURL: https://www.dnscheck.co/
+  baseURL: https://www.dnscheck.co//api/v1//groups/:group_uuid
+  tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/dns-check/master/_listings/dns-check/groups-group-uuid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/dns-check/master/_listings/dns-check/groupsgroup-uuid-get-openapi.md
+- name: DNS Record Group Monitoring API
+  x-api-slug: dns-record-group-monitoring-api
+  description: A DNS record group is a logical collection of DNS records. DNS record
+    groups can have a one-to-one correlation with zone files, but other types of groupings
+    are possible as well, such as grouping by service or customer. See the DNS record
+    groups page for more details. The DNS Check API is used to request data for either
+    a specific record group, or all DNS record groups owned by your account.
+  image: https://cdn.dnscheck.co/images/dns-check-icon.png
+  humanURL: https://www.dnscheck.co/
+  baseURL: https://www.dnscheck.co//api/v1
+  tags: DNS Check
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/dns-check/master/_listings/dns-check/openapi.md
 x-common:
 - type: x-developer
   url: https://www.dnscheck.co/documentation
