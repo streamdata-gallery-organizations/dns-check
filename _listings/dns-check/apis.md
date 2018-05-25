@@ -1,13 +1,16 @@
 ---
 name: DNS Check
 x-slug: dns-check
-description: DNS Check enables you to easily monitor, share and troubleshoot DNS records.
-image: https://cdn.dnscheck.co/images/dns-check-icon.png
+description: Monitor DNS records. Request DNS updates by sharing reports that show
+  the pass/fail status of each record. Troubleshoot DNS issues. DNS records are automatically
+  re-checked, and reports updated. DNS records can be imported from a zone file, or
+  added in...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18972-dns-check.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "3315601"
 tags: DNS Check
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-25"
+modified: "2018-05-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/dns-check/master/_listings/dns-check/apis.md
 specificationVersion: "0.14"
 apis:
@@ -15,7 +18,7 @@ apis:
   x-api-slug: dns-record-group-monitoring-api
   description: The DNS Check API is used to request data for either a specific record
     group, or all DNS record groups owned by your account.
-  image: https://cdn.dnscheck.co/images/dns-check-icon.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18972-dns-check.jpg
   humanURL: https://www.dnscheck.co/
   baseURL: https://www.dnscheck.co//api/v1//groups/:group_uuid
   tags: Groups
@@ -29,7 +32,7 @@ apis:
     are possible as well, such as grouping by service or customer. See the DNS record
     groups page for more details. The DNS Check API is used to request data for either
     a specific record group, or all DNS record groups owned by your account.
-  image: https://cdn.dnscheck.co/images/dns-check-icon.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18972-dns-check.jpg
   humanURL: https://www.dnscheck.co/
   baseURL: https://www.dnscheck.co//api/v1
   tags: DNS Check
