@@ -4,7 +4,7 @@ description: This is a repository of dns check APIs, self-contained as a Github 
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/dns-check.png
 created: "2018-02-24"
-modified: "2018-05-25"
+modified: "2018-06-20"
 url: http://dns-check.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
